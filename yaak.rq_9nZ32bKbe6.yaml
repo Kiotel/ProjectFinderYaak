@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_9nZ32bKbe6
 createdAt: 2026-03-10T11:15:15.298435400
-updatedAt: 2026-03-10T11:16:15.290688100
+updatedAt: 2026-03-10T11:31:20.629412
 workspaceId: wk_CwnpHgQL4q
 folderId: fl_BpfTMq6f6B
 authentication: {}
@@ -12,7 +12,7 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: ''
+name: example.com
 sortPriority: -1773141315296.0
 url: https://example.com
 urlParameters: []

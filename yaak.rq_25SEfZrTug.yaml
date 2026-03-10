@@ -2,17 +2,21 @@ type: http_request
 model: http_request
 id: rq_25SEfZrTug
 createdAt: 2026-03-10T11:26:02.221337800
-updatedAt: 2026-03-10T11:26:16.675418100
+updatedAt: 2026-03-10T11:41:18.015078300
 workspaceId: wk_CwnpHgQL4q
 folderId: fl_BpfTMq6f6B
 authentication: {}
 authenticationType: null
 body: {}
-bodyType: null
+bodyType: application/json
 description: ''
-headers: []
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: p2h3EM77pN
 method: GET
 name: Если получилось, то отпишись
 sortPriority: -1773141315296.0
-url: ''
+url: ${[ base_url ]}/search?q=${[ response.header(request='rq_9nZ32bKbe6', behavior='always', ttl='0', header=b64'Y29udGVudC10eXBl') ]}
 urlParameters: []

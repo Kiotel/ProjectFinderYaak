@@ -2,13 +2,13 @@ type: workspace
 model: workspace
 id: wk_CwnpHgQL4q
 createdAt: 2026-03-10T11:05:19.288099600
-updatedAt: 2026-03-10T11:05:19.288104300
+updatedAt: 2026-03-10T11:36:55.606198400
 authentication: {}
 authenticationType: null
 description: ''
 headers: []
 name: Yaak
-encryptionKeyChallenge: null
+encryptionKeyChallenge: eUE0azNuQwFeFuHlATvV9vJEUmzUOdxitWyytLrWGV7ujlEZQhjYzVmLaJko6PdWVX54T3k6O1cQSB80EXyqj/6PzPaoda3V1jX4quPLvjvDStOfJkMmoOJDu+TPhjrhe1o=
 settingValidateCertificates: true
 settingFollowRedirects: true
 settingRequestTimeout: 0

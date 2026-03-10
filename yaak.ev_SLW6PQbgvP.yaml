@@ -1,0 +1,18 @@
+type: environment
+model: environment
+id: ev_SLW6PQbgvP
+workspaceId: wk_CwnpHgQL4q
+createdAt: 2026-03-10T11:14:57.935826600
+updatedAt: 2026-03-10T11:40:04.915554600
+name: Main
+public: true
+base: false
+parentModel: environment
+parentId: null
+variables:
+- enabled: true
+  name: base_url
+  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3SGhZdnBLYkRmYlVuMURkWS9Nc2lOWFByMENzTUk3RnRPelQzTkNTUGNBZXR3S25LUS91bjBST0l0WWtVdGZES2o3QVZ5eEtPZ1hZRUtY') ]}
+  id: gQpF40fD6n
+color: null
+sortPriority: 0.0
