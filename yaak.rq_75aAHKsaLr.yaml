@@ -1,0 +1,19 @@
+type: http_request
+model: http_request
+id: rq_75aAHKsaLr
+createdAt: 2026-03-11T11:16:53.169484
+updatedAt: 2026-03-11T11:20:59.079268100
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_mXuR9QtNp6
+authentication:
+  token: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3SG9UTGk0UGlEdUkwT0U0WHc5elZORGl6MGxkMEFWQzBURGZOM0Z1cFp0bUt0TVRZTUFVRE0yRzFjVEZkQmtlR1BjbGZ6alhOQVVQYkY1WUVLMXFpeDN6c0tuc1V0MXdjRkVmbks3M2hkakY0THRnRWVjL0lrQllDSkdPNWxTZ2JQRmx6NXh1d1FpRTl5VXV2c1paQmQ5VVVSREI1SUh1T1NRSG5OUmNwbHUwY2RNRlJqQTh6bUM1SFhWRlh2MW9sRFdjd24vZ0IydEpjRldicnB1T1QrTk9MTHRhcjNkR1lSTjV2Q1NudWdUNkplMw') ]}
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Получить комментарии для проекта - зачем токен?
+sortPriority: 1000.0
+url: ${[ base_url ]}/projects/${[ response.body.path(request='rq_YCaBpC5wi6', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC5pZA') ]}/comments
+urlParameters: []

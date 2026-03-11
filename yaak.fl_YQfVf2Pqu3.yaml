@@ -1,0 +1,13 @@
+type: folder
+model: folder
+id: fl_YQfVf2Pqu3
+createdAt: 2026-03-11T09:57:48.980952600
+updatedAt: 2026-03-11T10:33:38.917777
+workspaceId: wk_CwnpHgQL4q
+folderId: null
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: Авторизация
+sortPriority: 1000.0

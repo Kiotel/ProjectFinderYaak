@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_GGyTUNu2Np
+createdAt: 2026-03-11T10:58:06.183371300
+updatedAt: 2026-03-11T11:25:42.644846400
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_QZBRwxSaoR
+authentication: {}
+authenticationType: none
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Получение профиля - не работает
+sortPriority: 0.0
+url: ${[ base_url ]}/users/${[ response.body.path(request='rq_vYFhW3x7un', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC51c2VyLmlk') ]}
+urlParameters: []

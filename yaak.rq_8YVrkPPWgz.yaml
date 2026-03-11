@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_8YVrkPPWgz
+createdAt: 2026-03-11T10:42:01.347027
+updatedAt: 2026-03-11T10:45:26.940723500
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_fmju8BMdwC
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Все проекты
+sortPriority: 1000.0
+url: ${[ base_url ]}/projects/?page=1&limit=20
+urlParameters:
+- enabled: false
+  name: page
+  value: '1'
+  id: 2Y06TZxmIQ
+- enabled: false
+  name: limit
+  value: '20'
+  id: N4q29bcMx6
+- enabled: true
+  name: ''
+  value: ''
+  id: bdti3TZNfj

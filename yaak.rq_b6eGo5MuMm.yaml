@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_b6eGo5MuMm
+createdAt: 2026-03-11T10:47:59.437355
+updatedAt: 2026-03-11T10:50:15.313515900
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_fmju8BMdwC
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Получение проекта по id
+sortPriority: 1000.0
+url: ${[ base_url ]}/projects/${[ response.body.path(request='rq_YCaBpC5wi6', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC5pZA') ]}
+urlParameters: []

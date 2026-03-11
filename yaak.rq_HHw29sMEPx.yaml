@@ -1,0 +1,28 @@
+type: http_request
+model: http_request
+id: rq_HHw29sMEPx
+createdAt: 2026-03-11T09:57:56.911818300
+updatedAt: 2026-03-11T11:06:23.887442100
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_YQfVf2Pqu3
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "username": "${[ faker.internet.username() ]}",
+      "email": "${[ faker.internet.email() ]}",
+      "password": "testtest123"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: D7QHPQx7GZ
+method: POST
+name: Регистрация
+sortPriority: 0.0
+url: ${[ base_url ]}/auth/register
+urlParameters: []

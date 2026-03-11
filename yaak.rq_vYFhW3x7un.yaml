@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_vYFhW3x7un
+createdAt: 2026-03-11T10:07:09.262117400
+updatedAt: 2026-03-11T11:06:23.919817500
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_YQfVf2Pqu3
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "email": "${[ response.body.path(request='rq_HHw29sMEPx', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC51c2VyLmVtYWls') ]}",
+      "password": "${[ request.body.path(result='first', join=b64'LCA', requestId='rq_HHw29sMEPx', path=b64'JC5wYXNzd29yZA') ]}"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 5yvyxvmpVd
+method: POST
+name: Авторизация
+sortPriority: 1000.0
+url: ${[ base_url ]}/auth/login
+urlParameters: []

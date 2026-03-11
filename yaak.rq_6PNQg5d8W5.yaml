@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_6PNQg5d8W5
+createdAt: 2026-03-11T11:14:09.189002800
+updatedAt: 2026-03-11T11:16:07.140950600
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_mXuR9QtNp6
+authentication:
+  token: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3RnJwTkJ5amd5alI5eWZvYndkNTZNZDEwZVVNeCs2MUV5dllqZXlxZEcvMklPZ3hZN0lXb1ZaSE8xWHhmSmhTVXFMRk9HMkhCK2tPejkwajdacEV4TnVNUkpmRkMrSjBJZG9SODhwQS9MSDQ2NG1xa0lUUjRJdGdqL1JvRDN3a1JXL3FRcm1zRVdENlFlNVBBOVdNWmd3VHI4SWY1TEE3S3pOcjF1bWk0RWgzRDY5WnBoeFM1cEQ1ZnBDRy9sQ09yUEdFd0l0UElTV25XcWNoN1NuOFpIYWxCVVlRd3lKdmZRWnRaRHkxL0podXRzOQ') ]}
+authenticationType: bearer
+body:
+  text: |-
+    {
+      "content": "${[ faker.lorem.paragraph() ]}"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: zDQ4ErqcSb
+method: POST
+name: Добавить комментарий
+sortPriority: -1773227649187.0
+url: ${[ base_url ]}/projects/${[ response.body.path(request='rq_YCaBpC5wi6', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC5pZA') ]}/comments
+urlParameters: []

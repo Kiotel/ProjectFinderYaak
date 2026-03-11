@@ -1,0 +1,19 @@
+type: http_request
+model: http_request
+id: rq_ST6EhqEPs6
+createdAt: 2026-03-11T11:21:19.350533200
+updatedAt: 2026-03-11T11:23:05.093192200
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_fmju8BMdwC
+authentication:
+  token: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3SHg3R1YwN1Y4NFpvVlBlUi9XelhaRVl6ck9aKysrSmpxVVQ5anQrNlREb2JGZEJJMU8vWGdsb21BN0RrR0JxRWwrbWJkUm5DL0ZBazFaSDRDZFhWTGtXWW1CYWhnMVg5WEF2ME40bUJLUGZVQVZMOEQra1Y5WHNkbEZneEd0WGhHYjdGNUFKdnhaMnU1VlVFZ1BiaFk0elVCdnlaMkR4L25RTXM3anZVRjQwVFArL3JlWFZqbE9rQktnbnZsekEyVGJWdVM2THNBeWZNdld5bjNEMmJFUmpMeUh0M2JTYTcya3Q3aEFHWmhCa2tzWg') ]}
+authenticationType: bearer
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: POST
+name: Лайк
+sortPriority: 1000.0
+url: ${[ base_url ]}/projects/${[ response.body.path(request='rq_YCaBpC5wi6', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC5pZA') ]}/like
+urlParameters: []

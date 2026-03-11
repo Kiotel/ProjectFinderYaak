@@ -1,0 +1,40 @@
+type: http_request
+model: http_request
+id: rq_YCaBpC5wi6
+createdAt: 2026-03-11T10:33:44.991002600
+updatedAt: 2026-03-11T10:45:20.591693700
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_fmju8BMdwC
+authentication:
+  disabled: false
+  token: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3SGk2L2daRHp1V0llR2wwR1dwaHdlSFcva0NBQWExcjZxUWIzcFdsN2VjWkUybkZOQmYxcE1HdUtNdzBXdzFmek5vck9lU3lPdTRTTjYzZ3FDaUJZQ3lsQ1NZanc3YnM5TURqNkkwMXB2NkNZYWN3RElHT1gzZ1FRRFprdUtxMnU2WVRpZFNtZ1dhSnFaM244VUJNemZvYnZmZktwM3JQMXB1S3NUZWV1KzV5aWhUaHpUTXRSQTNURlJkU3VLdEM0VmtFUDhaRkRuM0wrZWdxNXlQV0Q1R1VaSzl3UjcwaldlRzFiYmFGY2sxTWZ2bA') ]}
+authenticationType: bearer
+body:
+  text: |-
+    {
+      "title": "${[ faker.animal.petName() ]}",
+      "authorId": "${[ response.body.path(request='rq_vYFhW3x7un', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC51c2VyLmlk') ]}"
+      "description": "${[ faker.lorem.paragraphs() ]}",
+      "briefDescription": "${[ faker.lorem.sentence() ]}",
+      "stage": "IDEA",
+      "tags": ["${[ faker.animal.crocodilia() ]}", "${[ faker.animal.lion() ]}"],
+      "neededRoles": [
+        {
+          "title": "${[ faker.person.jobTitle(options=b64'WyJydSJd') ]}",
+          "description": "Описание вакансии: ${[ faker.lorem.sentence() ]}",
+          "requiredSkills": ["Kotlin", "Ktor"]
+        }
+      ]
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: T4gtgGvGFS
+method: POST
+name: Создание
+sortPriority: 1000.0
+url: ${[ base_url ]}/projects/
+urlParameters: []
