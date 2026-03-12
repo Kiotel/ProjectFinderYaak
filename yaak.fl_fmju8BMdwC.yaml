@@ -2,12 +2,12 @@ type: folder
 model: folder
 id: fl_fmju8BMdwC
 createdAt: 2026-03-11T10:33:37.108739
-updatedAt: 2026-03-11T10:33:38.922660300
+updatedAt: 2026-03-12T07:49:52.692100800
 workspaceId: wk_CwnpHgQL4q
-folderId: null
+folderId: fl_XySzPjfYMa
 authentication: {}
 authenticationType: null
 description: ''
 headers: []
 name: Проекты
-sortPriority: 2000.0
+sortPriority: 7000.0

@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_6PNQg5d8W5
 createdAt: 2026-03-11T11:14:09.189002800
-updatedAt: 2026-03-11T11:16:07.140950600
+updatedAt: 2026-03-12T10:40:27.799698300
 workspaceId: wk_CwnpHgQL4q
 folderId: fl_mXuR9QtNp6
 authentication:
@@ -22,6 +22,6 @@ headers:
   id: zDQ4ErqcSb
 method: POST
 name: Добавить комментарий
-sortPriority: -1773227649187.0
+sortPriority: 0.0
 url: ${[ base_url ]}/projects/${[ response.body.path(request='rq_YCaBpC5wi6', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC5pZA') ]}/comments
 urlParameters: []

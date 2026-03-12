@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_ST6EhqEPs6
 createdAt: 2026-03-11T11:21:19.350533200
-updatedAt: 2026-03-11T11:23:05.093192200
+updatedAt: 2026-03-12T10:40:25.218930700
 workspaceId: wk_CwnpHgQL4q
 folderId: fl_fmju8BMdwC
 authentication:
@@ -14,6 +14,6 @@ description: ''
 headers: []
 method: POST
 name: Лайк
-sortPriority: 1000.0
+sortPriority: 2000.0
 url: ${[ base_url ]}/projects/${[ response.body.path(request='rq_YCaBpC5wi6', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC5pZA') ]}/like
 urlParameters: []

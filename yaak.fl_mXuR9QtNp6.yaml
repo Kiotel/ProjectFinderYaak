@@ -2,12 +2,12 @@ type: folder
 model: folder
 id: fl_mXuR9QtNp6
 createdAt: 2026-03-11T11:13:55.741782100
-updatedAt: 2026-03-11T11:14:04.704858200
+updatedAt: 2026-03-12T07:49:52.695860
 workspaceId: wk_CwnpHgQL4q
-folderId: fl_fmju8BMdwC
+folderId: fl_XySzPjfYMa
 authentication: {}
 authenticationType: null
 description: ''
 headers: []
 name: Комментарии
-sortPriority: -1773227635735.0
+sortPriority: 8000.0

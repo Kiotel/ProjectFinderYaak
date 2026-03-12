@@ -2,12 +2,12 @@ type: folder
 model: folder
 id: fl_QZBRwxSaoR
 createdAt: 2026-03-11T11:06:18.226862700
-updatedAt: 2026-03-11T11:06:23.925528500
+updatedAt: 2026-03-12T07:49:52.675047800
 workspaceId: wk_CwnpHgQL4q
-folderId: fl_YQfVf2Pqu3
+folderId: fl_XySzPjfYMa
 authentication: {}
 authenticationType: null
 description: ''
 headers: []
 name: Пользователи
-sortPriority: 2000.0
+sortPriority: 4000.0
