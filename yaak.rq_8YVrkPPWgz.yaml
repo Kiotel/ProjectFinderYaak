@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_8YVrkPPWgz
 createdAt: 2026-03-11T10:42:01.347027
-updatedAt: 2026-03-12T10:40:25.212046100
+updatedAt: 2026-03-26T12:13:24.797191200
 workspaceId: wk_CwnpHgQL4q
 folderId: fl_fmju8BMdwC
 authentication: {}
@@ -14,7 +14,7 @@ headers: []
 method: GET
 name: Все проекты
 sortPriority: 1000.0
-url: ${[ base_url ]}/projects/?page=1&limit=20
+url: ${[ base_url ]}/projects/?page=1&limit=100000
 urlParameters:
 - enabled: false
   name: page

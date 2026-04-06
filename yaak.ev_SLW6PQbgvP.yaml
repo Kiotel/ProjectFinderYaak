@@ -3,7 +3,7 @@ model: environment
 id: ev_SLW6PQbgvP
 workspaceId: wk_CwnpHgQL4q
 createdAt: 2026-03-10T11:14:57.935826600
-updatedAt: 2026-03-12T06:54:14.105941300
+updatedAt: 2026-03-26T07:20:39.453819700
 name: Main
 public: true
 base: false
@@ -12,7 +12,7 @@ parentId: null
 variables:
 - enabled: true
   name: base_url
-  value: ${[ secure(value=b64'WUVOQ19lVUUwYXpOdVF3RkNoWHRqR3lzcTRJRnMvVGJGWlhqNklPZU5oaHJJcm9ONXF6cGhjVis0MysyYmcyN3FvNERUU3lvSlp5dUlZZjBNbjFOVU83V24wT3FXeGIyWXlZYUpubDQ9') ]}
+  value: http://95.174.100.224:8092
   id: gQpF40fD6n
 color: null
 sortPriority: 0.0

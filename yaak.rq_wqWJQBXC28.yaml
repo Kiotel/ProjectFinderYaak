@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_wqWJQBXC28
+createdAt: 2026-04-06T11:00:23.331394100
+updatedAt: 2026-04-06T11:03:25.831374200
+workspaceId: wk_CwnpHgQL4q
+folderId: fl_YQfVf2Pqu3
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "refreshToken": "${[ response.body.path(request='rq_vYFhW3x7un', behavior='smart', ttl='0', result='first', join=b64'LCA', path=b64'JC5yZWZyZXNoVG9rZW4') ]}"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: iYNxzgpQzE
+method: POST
+name: Refresh токена
+sortPriority: 0.0
+url: ${[ base_url ]}/auth/refresh
+urlParameters: []
